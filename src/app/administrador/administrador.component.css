@@ -1,0 +1,155 @@
+div.center {
+    text-align: center;
+    
+  }
+
+.button{
+    background:firebrick;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    margin-left: 2%;
+
+
+  }
+
+  body{
+    background: linear-gradient(white (0, 0, 0, 0.5), white (0, 0, 0, 0.55)), 
+    url("../assets/fondo tese 2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    background-color: white;
+    color: white;
+}
+
+    .active-link{
+    color:red;
+    }
+
+    #pricing {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.55)), 
+        url("../assets/fondo tese 2.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        position: relative;
+        background-color: white;
+        color: white;
+    }
+    #pricing .section-title {
+        padding-bottom: 75px;
+    }
+    
+    .pricing-table ul {
+        padding-left: 0;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .pricing-table li {
+        list-style-type: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #C1C1C1;
+        color: #ff0808;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 22px;
+        font-size: 18px;
+    }
+    
+    .pricing-table {
+        text-align: center;
+        color: white;
+        background-color:initial;
+        padding-bottom: 50px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+    }
+    .pricing-table.big {
+        padding-bottom: 60px;
+        margin-top: -25px;
+    }
+    /*Titulos de revista*/
+
+    .pricing-table h4 {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-bottom: 0;
+    }
+    
+    .pricing-table.big h4 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .pricing-table .price {
+        font-family: 'Work Sans', sans-serif;
+        background-color: #292929;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 46px;
+        line-height: 50px;
+        font-weight: 600;
+    }
+    
+    .pricing-table.big .price {
+        background-color: #EE5A3F;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .pricing-table.popular .price {
+        background-color: #EE5A3F;
+    }
+    
+    .section-title {
+        text-align: center;
+        padding-bottom: 90px;
+    }
+    .section-title h2 {
+        text-transform: uppercase;
+    }
+    .section-title p {
+        padding-bottom: 8px;
+        margin-bottom: 0;
+    }
+    .section-title hr {
+        display: inline-block;
+        top: 4px;
+    }
+    .section-title.light p{
+        color: #fff;
+    }
+    .section-title.light hr {
+        border-color: rgba(255,255,255, .5);
+    }
+    .section-title i {
+        background-color: transparent;
+        padding-left: 11px;
+        padding-right: 10px;
+        font-size: 24px;
+    }
+    hr.left {
+        position: relative;
+        max-width: 250px;
+        width: 100%;
+    }
+    hr.right {
+        max-width: 250px;
+        width: 100%;
+        position: relative;
+    }    
+  
+  
